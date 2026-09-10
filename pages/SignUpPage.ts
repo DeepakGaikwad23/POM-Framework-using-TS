@@ -25,8 +25,8 @@ export class SignUpPage
     async SignUp()
     {
         await this.signUpLink.click();
-        await this.usernameTextbox.fill("Deepak0001");
-        await this.passwordTextbox.fill("Password0001");
+        await this.usernameTextbox.fill("Deepak0002");
+        await this.passwordTextbox.fill("Password0002");
         await this.signUpButton.click();
     } 
 
